@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font-family: 'Marcellus SC', serif;
+  background-color: #111;
+  margin: 0;
+  padding: 2rem;
+  color: #897859;
+  overflow-x: hidden;
+}
