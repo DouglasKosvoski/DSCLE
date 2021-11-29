@@ -8,32 +8,59 @@
   <meta name="description" content="This page covers the lore surrounding the Dark Souls universe">
 
   <!-- Css Stylesheet -->
-  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel='stylesheet' href='./stylesheets/style.css' />
+  <!-- Boostrap -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
   <!-- Google Fonts -->
   <link rel='preconnect' href='https://fonts.googleapis.com' />
   <link rel='preconnect' href='https://fonts.gstatic.com', crossorigin />
   <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap' />
 </head>
 <body>
+  <!-- Page title -->
   <h1>Dark Souls Comprehensive Lore Explanation</h1>
-  <h3>Welcome to Dark Souls Comprehensive Lore Explanation.</h3>
-  <p>
-    In this page we will address the lore surrounding the Dark Souls Universe
-    from the lighting of the first Flame to the end of time itself.
-  </p>
+  <!-- Page description -->
+  <p>Welcome to Dark Souls Comprehensive Lore Explanation.</p>
 
+  <!-- What is this about -->
+  <h2 class="subtitle">What you will find in this page.</h2>
+  <p>In this page will be addressed the lore surrounding the Dark Souls Universe from the lighting of the first Flame to the end of time itself.</p>
+
+  <!-- Button responsible for toggling dark and light mode -->
   <button class="darkmode-button" type="button" name="toogle_darkmode" onclick="toogleDarkMode()">Dark Mode</button>
 
-  <div class="content">
-    <div class="video-container drop-shadow">
-      <iframe class="responsive-iframe" src="https://www.youtube.com/embed/zCYyZrKUUgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <p class="credits">Credits to <u>Chance Randle</u> for uploading the video in high quality</p>
+  <!-- Disclaimer note -->
+  <h2 class="subtitle">Disclaimer</h2>
+  <p>Say something about having some speculation inserted in betweens</p>
 
-    <div class="image-container drop-shadow">
-      <img src="./images/001.png" class="responsive-image" loading="lazy" alt="">
+  <!-- Table of Content -->
+  <h2 class="subtitle">Table of Content</h2>
+  <nav id="table-of-content" class="table-of-content">
+    <ol>
+      <li><a href="#intro">Intro</a></li>
+      <li><a href="#dunno">Dunno</a></li>
+    </ol>
+  </nav>
+
+  <!-- Page main content -->
+  <div data-bs-spy="scroll" data-bs-target="#table-of-content" data-bs-offset="0" tabindex="0">
+    <!-- Intro -->
+    <div class="">
+      <h2 class="subtitle" id="intro">Intro</h2>
+      <p>As a matter of fact before continuing please watch the video below.</p>
+      <div class="video-container drop-shadow">
+        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/zCYyZrKUUgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p class="credits">Credits to <u>Chance Randle</u> for uploading the video in high quality</p>
     </div>
 
+    <!-- Dunno -->
+    <div class="">
+      <h2 class="subtitle" id="dunno">Dunno</h2>
+      <div class="image-container drop-shadow">
+        <img src="./images/001.png" class="responsive-image" loading="lazy" alt="">
+      </div>
+    </div>
   </div>
 
   <!-- JavaScript -->
